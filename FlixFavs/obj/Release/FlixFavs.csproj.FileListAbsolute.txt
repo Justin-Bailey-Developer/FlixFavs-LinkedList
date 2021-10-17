@@ -1,0 +1,15 @@
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\bin\Release\FlixFavs.exe.config
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\bin\Release\FlixFavs.exe.manifest
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\bin\Release\FlixFavs.application
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\bin\Release\FlixFavs.exe
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\bin\Release\FlixFavs.pdb
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.csprojAssemblyReference.cache
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.CarouselForm.resources
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.HomeForm.resources
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.Properties.Resources.resources
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.csproj.GenerateResource.cache
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.csproj.CoreCompileInputs.cache
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.exe.manifest
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.application
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.exe
+F:\2021\Semester 2\PROG7312\LAC Activities\FlixFavs\FlixFavs\obj\Release\FlixFavs.pdb

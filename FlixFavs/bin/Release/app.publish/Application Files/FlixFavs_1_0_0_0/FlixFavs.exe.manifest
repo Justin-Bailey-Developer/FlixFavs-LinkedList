@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FlixFavs.exe" version="1.0.0.0" publicKeyToken="1e20764e8d3b422d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FlixFavs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FlixFavs.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlixFavs.exe" size="17872">
+      <assemblyIdentity name="FlixFavs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1P5A04iIWroHiVDLTUIfGfQthQBhrWl/Je2sfvQa7o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FlixFavs.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DELL-NB-JTB\justin" issuerKeyHash="e0a40ba3ba1bd8705c3f30754ff66e1d08df81a7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8F64TnDgtgiWe2MehbDbsY/pZ6T11H1PzYrA5MuKj64=</DigestValue></Reference></SignedInfo><SignatureValue>VQ0g2GG6GW4lPQLMIlYBD2esQ9R3eJYbOPRZ0oc82fQZpMfKMThFUgg6U4lGfjKxAPsPrydI9BD/dDTnz+vKHb3UKIxn3vduuySMW4jkgW7/79EikurRwhG1cQdnRorxVOL15F6uzqEKHFX5bH8aSOPlvkuG5+nElYIgp7en4+0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vmd9i+QcmiaofgsF17gV81/Eo0Dn8aoOrEMq/nMPPrBMpP0NPfdb6cN3yfFh/tg5hDI7V/cN5u5RVGiR3ESmglEijypjrmls0jT6UsxDGb5zShiEN+5NmeuzTRoPQuYDiMScvYT+T83qXjKSiNizzYVeesm+C+/5oCFEf9eenSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ae8f8acbe4c08acd4f7dd4f5a467e98fb1dbb0851e637b9608b6e0704eb85ef0" Description="" Url=""><as:assemblyIdentity name="FlixFavs.exe" version="1.0.0.0" publicKeyToken="1e20764e8d3b422d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DELL-NB-JTB\justin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>iwzzVuheTSuG8xI2DmbNtihJrRzWouOkxpN5o2tKAFc=</DigestValue></Reference></SignedInfo><SignatureValue>d3LelTwhLyAnVM1prMVpzLe01ILI7PzKOaO2thTtXE42EJEyfz5eCWWKto5T6UefqTGMIqLdHdp3ODg4y6u3T3NWxRx+c/B4XnamSUXj0ivaDnvETSdWUT3KaoE/qksPHc/XSSfVbAGiTG7FRkfiD+DyunOVpiomHBuenvFDQFI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vmd9i+QcmiaofgsF17gV81/Eo0Dn8aoOrEMq/nMPPrBMpP0NPfdb6cN3yfFh/tg5hDI7V/cN5u5RVGiR3ESmglEijypjrmls0jT6UsxDGb5zShiEN+5NmeuzTRoPQuYDiMScvYT+T83qXjKSiNizzYVeesm+C+/5oCFEf9eenSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQGpzxpKx+lYxMTVjHoXPdYDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAEwATAAtAE4AQgAtAEoAVABCAFwAagB1AHMAdABpAG4wHhcNMjEwOTEwMTQzMzMwWhcNMjIwOTEwMjAzMzMwWjAvMS0wKwYDVQQDHiQARABFAEwATAAtAE4AQgAtAEoAVABCAFwAagB1AHMAdABpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL5nfYvkHJomqH4LBde4FfNfxKNA5/GqDqxDKv5zDz6wTKT9DT33W+nDd8nxYf7YOYQyO1f3DebuUVRokdxEpoJRIo8qY65pbNI0+lLMQxm+c0oYhDfuTZnrs00aD0LmA4jEnL2E/k/N6l4ykojYs82FXnrJvgvv+aAhRH/Xnp0pAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAVlYEXQWWXuEgj2up6tKdVfmVBXiaIwA7RGhyNLr1eu8ppZ2P/D+Cd/s65DZJ8Qa7dsZ219kcrBj5P7IEk1ymcJOmcVh8QoNnjTWUwxL2F1F7p/2Xn7KZJ7upY/t9sMMXBfwTeZEncFHKYZiJ4xN2cNJZHqsGc6k0eJYUL1ZMf9U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
